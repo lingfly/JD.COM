@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="./styles/dropdown.css">
     <link rel="stylesheet" type="text/css" href="styles/typography.css">
     <link rel="stylesheet" type="text/css" href="./module/prehead/styles/prehead.css">
+    <link rel="stylesheet" type="text/css" href="./module/shortcut/styles/shortcut.css">
 
   </head>
 
@@ -23,8 +24,8 @@
         <i class="iconfont">&#xe668;</i>
       </div>
     </div>
-    <div class="mod_container">
-      <div class="shortcut">
+    <div id="shortcut">
+      <div class="inner">
         <div id="logo" class="logo">
           <img src="./module/shortcut/images/logo.gif">
         </div>
@@ -143,46 +144,43 @@
             </div>
           </div>
         </div>
-
+  
         <div class="fr">
           <li class="fl">
             <a href="#">你好，请登录</a>
             <a href="#" class="style-red">免费注册</a>
           </li>
           <li class="spacer"></li>
-
+  
           <li class="fl">
-            <a href="#">你好，请登录</a>
-            <a href="#" class="li_text">我的订单</a>
+            <a href="#">我的订单</a>
           </li>
           <li class="spacer"></li>
           
           <li class="myjd fl dropdown">
-            <li class="li_text  dd-icon">
+            <div class="li_text  dd-icon">
               <a href="#" class="havei">我的京东</a>
               <i class="iconfont dd-i">&#xe600;</i>
-            </li>
+            </div>
             <div class="dropdown-layer">
               <div class="myjdlist">
                 <div class="fore1">
                   <div class="item">
-                    <a href="#">"待处理订单"
-                      <span id="num-unfinishedorder"></span>
-                    </a>
+                    <a href="#">待处理订单<span id="num-unfinishedorder"></span></a>
                   </div>
                   <div class="item">
                     <a href="#">返修退换货</a>
                   </div>
                   <div class="item">
-                    <a href="#"></a>
+                    <a href="#">降价商品<span id="num-reduction"></span></a>
                   </div>
                 </div>
                 <div class="fore2">
                   <div class="item">
-                    <a href="#"></a>
+                    <a href="#">消息<span id="num-tip"></span></a>
                   </div>
                   <div class="item">
-                    <a href="#"></a>
+                    <a href="#">我的问答<span id="num-consultation"></span></a>
                   </div>
                   <div class="item">
                     <a href="#">我的关注</a>
@@ -200,25 +198,55 @@
                 </div>
                 <div class="fore2">
                   <div class="item">
-                    <a href="#">
-                      "我的优惠券"
-                      <span id="num-ticket"></span>
-                    </a>
+                    <a href="#">我的优惠券<span id="num-ticket"></span></a>
                   </div>
-                  <div class="item">我的理财</div>
+                  <div class="item">
+                    <a href="#">我的理财</a>
+                  </div>
                 </div>
               </div>
               
             </div>
           </li>
           <li class="spacer"></li>
+
+          <li class="fl">
+            <div class="li_text">
+              <a href="#">企业采购</a>
+            </div>
+          </li>
+          <li class="spacer"></li>
+
+          <li class="client-service fl dropdown">
+            <div class="li_text dd-icon">
+              <a href="#" class="havei">客户服务</a>
+              <i class="iconfont">&#xe600;</i>
+            </div>
+            <div class="dropdown-layer">
+              <div class="cslist">
+                 <div class="item-hd">客户</div>
+                 <div class="item"><a href="#" true="">帮助中心</a></div>
+                 <div class="item"><a href="#" true="">售后服务</a></div>
+                 <div class="item"><a href="#" true="">在线客服</a></div>
+                 <div class="item"><a href="#" true="">意见建议</a></div>
+                 <div class="item"><a href="#" true="">电话客服</a></div>
+                 <div class="item"><a href="#" true="">客服邮箱</a></div>
+                 <div class="item"><a href="#" true="">金融咨询</a></div>
+                 <div class="item"><a href="#" true="">售全球客服</a></div>
+              </div>
+              <div class="cslist cslist_2">
+                 <div class="item-hd">商户</div>
+                 <div class="item"><a href="#" true="">合作招商</a></div>
+                 <div class="item"><a href="#" true="">京东商学院</a></div>
+                 <div class="item"><a href="#" true="">商家后台</a></div>
+                 <div class="item"><a href="#" true="">京麦工作台</a></div>
+                 <div class="item"><a href="#" true="">商家帮助</a></div>
+                 <div class="item"><a href="#" true="">规则平台</a></div>	
+              </div>
+            </li>
         </div>
-
-
+  
       </div>
-
-
-
 
     </div>
 

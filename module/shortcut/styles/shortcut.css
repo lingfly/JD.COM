@@ -1,0 +1,145 @@
+#shortcut{
+	height: 30px;
+	background-color: #E3E4E5;
+	border-bottom: 1px solid #DDDDDD;
+	color: #999;
+	position: relative;
+	z-index: 3;
+}
+#shortcut a:visited,#shortcut a:link{
+	color: #999;
+}
+#shortcut a:hover{
+	color: #c81623;
+}
+#shortcut .style-red{
+	color: #F10215!important;
+}
+.logo img{
+	display: block;
+	width: 190px;
+	height: 170px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-moz-box-shadow: 0 -12px 10px rgba(0,0,0,.2);
+    box-shadow: 0 -12px 10px rgba(0,0,0,.2);
+}
+.location{
+	line-height: 30px;
+	position: absolute;
+	left: 210px;
+	top: 0;
+}
+#shortcut .spacer{
+	width: 1px;
+	height: 10px;
+	float: left;
+	border-left: 1px solid #CCC;
+	margin: 11px 5px 0;
+	padding: 0;
+}
+#shortcut li{
+	display: list-item;
+	line-height: 30px;
+	position: relative;
+}
+.li_text{
+	padding: 0 7px;
+}
+#shortcut li i{
+	position: absolute;
+	top: 0;
+	right: 5px;
+	margin-top: 1px;
+}
+.havei{
+	display: inline;
+	padding-right: 15px;
+}
+.location .dropdown-layer{
+	width: 320px;
+}
+
+
+
+
+.arealist{
+	padding: 10px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+.location .item{
+	display: inline-block;
+	width: 54px;
+}
+.location .item a{
+	display: inline-block;
+	height: 24px;
+	line-height: 24px;
+	text-align: left;
+	padding: 0 8px;
+}
+.location .item a:hover{
+	background-color: #eee;
+}
+.location .selected{
+	background-color: #F10215;
+}
+.location .selected:link,
+.location .selected:visited,
+.location .selected:hover{
+	background-color: #F10215!important;
+	color: #fff!important;
+}
+
+.location .dropdown-layer,.myjd .dropdown-layer{
+	top: 30px;
+	left: 0;
+}
+
+.client-service .dropdown-layer{
+	top: 30px;
+	right: 0;
+}
+
+
+
+.myjdlist{
+	width: 280px;
+	padding: 6px 14px;
+	float: left;
+}
+.cslist{
+	width: 170px;
+	padding: 6px 0;
+	text-indent: 14px;
+	float: left;
+}
+
+.myjdlist_2,.cslist_2{
+	border-top: 1px solid #F6F6F6;
+}
+
+.myjd [class*="fore"]{
+	width: 140px;
+	float: left;
+}
+
+.client-service .item{
+	width: 85px;
+	float: left;
+}
+#shortcut .item-hd{
+	font-weight: bold;
+}

@@ -4,4 +4,20 @@
 
 .dd-icon{
 	position: relative;
+	z-index: 3;
+	text-align: center;
+	border: 1px solid #E3E4E5;
+	height: 28px;
+	line-height: 28px;
+	padding: 0 7px;
+}
+.dropdown-layer{
+	color: #666;
+	position: absolute;
+	background-color: #fff;
+	/* display: none; */
+}
+.dropdown-hover .dropdown-layer{
+	border: 1px solid #CFCFCF;
+	display: block;
 }
